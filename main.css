@@ -12,6 +12,9 @@ nav {
     width: 100%;
     height: 15%;
     background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -33,7 +36,7 @@ nav {
     text-transform: uppercase;
     position: absolute;
     left: -5%;
-    margin: 0;
+    margin: -15px;
     height: 50px;
     transform: rotate(-90deg);
 }
@@ -75,11 +78,20 @@ nav {
 .rightPart {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
+   
 
+    
+}
+.teste{
+    height: 30PX;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .container img {
-    width: 700px;
+    width: 500px;
+    padding: 40px;
 }
 
 .rightPart h3 {
@@ -93,6 +105,8 @@ nav {
     font-family: "Montserrat", sans-serif;
     color: black;
     font-size: 20px;
+    text-decoration: none;
+    margin: 2%;
 }
 
 footer {
@@ -109,6 +123,9 @@ footer {
 
 footer h2, h4 {
     color: #FFFFFF7D;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+
 }
 
 h2, h4 {
