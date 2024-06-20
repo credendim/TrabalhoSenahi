@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 nav {
@@ -12,9 +15,9 @@ nav {
 }
 
 .container {
-    position: fixed;
-    margin-bottom: 10%;
-    margin-top: 111px;
+    position: absolute;
+    top: 15%;
+    height: 75%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -24,11 +27,12 @@ nav {
 .leftPart {
     display: flex;
     align-items: center;
-    /* width: 20%; */
 }
 
 .leftPart h1 {
     text-transform: uppercase;
+    position: absolute;
+    left: -1%;
     margin: 0;
     height: 50px;
     transform: rotate(-90deg);
@@ -39,14 +43,37 @@ nav {
     flex-direction: column;
 }
 
+.leftPart h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #727272;
+}
+
 .floorButton{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: #FA6D75;
+    border-radius: 50px;
     width: 150px;
     height: 150px;
     margin-top: 15px;
+    text-decoration: none;
+}
+
+.leftPart a {
+    text-decoration: none;
+}
+
+.floorButton p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 120px;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+
+.container img {
+    width: 500px;
 }
 
 footer {
@@ -57,7 +84,12 @@ footer {
     bottom: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;    
+}
+
+footer h2, h4 {
+    color: #FFFFFF7D;
 }
 
 h2, h4 {
