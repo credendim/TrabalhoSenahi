@@ -13,10 +13,14 @@ nav {
     position: fixed;
     width: 100%;
     height: 15%;
-    background-color: red;
+    background-color: #E30613;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+nav img {
+    width: 20%;
 }
 
 .container {
@@ -112,7 +116,7 @@ nav {
 }
 
 footer {
-    background-color: red;
+    background-color: #E30613;
     width: 100%;
     height: 10%;
     position: fixed;
@@ -124,7 +128,7 @@ footer {
 }
 
 footer h2, h4 {
-    color: #FFFFFF7D;
+    color: hsl(0, 100%, 88%);
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
 
