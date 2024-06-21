@@ -95,6 +95,7 @@ nav img {
     display: flex;
     justify-content: center;
 }
+
 .container img {
     width: 500px;
     padding: 40px;
@@ -113,6 +114,20 @@ nav img {
     font-size: 20px;
     text-decoration: none;
     margin: 1%;
+}
+
+.interagir {
+    position: fixed;
+    bottom: 10%;
+    right: 2%;
+}
+
+.interagir img:first-child {
+    width: 60px;
+}
+
+.interagir img:last-child {
+    width: 120px;
 }
 
 footer {
@@ -136,4 +151,34 @@ footer h2, h4 {
 
 h2, h4 {
     margin: 0;
+}
+
+.Back {
+    background-color: #FA6D75;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    top: -36%;
+    left: -10%;
+}
+
+.Back, a {
+    text-decoration: none;
+    font-size: 150px;
+    color: black;
+}
+
+.SegundoAndar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SegundoAndar h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
 }
