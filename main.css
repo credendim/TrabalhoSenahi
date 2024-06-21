@@ -122,6 +122,23 @@ nav img {
     right: 2%;
 }
 
+.acesse {
+    position: fixed;
+    right: 3%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.acesse img {
+    width: 200px;
+}
+
+.acesse h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
 .interagir img:first-child {
     width: 60px;
 }
